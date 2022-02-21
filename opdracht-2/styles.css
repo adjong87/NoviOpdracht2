@@ -1,0 +1,77 @@
+/* ======================================================
+   OEFENEN MET FLEXBOX
+========================================================= */
+
+/* Schrijf hier  jouw CSS! */
+
+/*Opdracht 2.1*/
+.one {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: left;
+}
+
+/*Opdracht 2.2*/
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/*Opdracht 2.3*/
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-basis: 300px;
+    list-style-type: none;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+/*Opdracht 2.4*/
+.aanmelden {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+form {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+/*Opdracht 2.5*/
+.five {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.five article {
+    box-sizing: border-box;
+    flex-basis: 400px;
+    flex-shrink: 0;
+    flex-grow: 1;
+}
+
+
+
+
+
+
+
+
+
+
